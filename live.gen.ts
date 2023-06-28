@@ -5,41 +5,41 @@
 import { DecoManifest } from "$live/types.ts";
 import * as $$$$0 from "./routes/styles.css.ts";
 import * as $$$$1 from "./routes/_app.tsx";
-import * as $$$$$0 from "./islands/Newsletter.tsx";
-import * as $$$$$1 from "./islands/WishlistButton.tsx";
-import * as $$$$$2 from "./islands/ShippingSimulation.tsx";
-import * as $$$$$3 from "./islands/HeaderSearchbar.tsx";
+import * as $$$$$0 from "./islands/SearchControls.tsx";
+import * as $$$$$1 from "./islands/HeaderModals.tsx";
+import * as $$$$$2 from "./islands/ProductImageZoom.tsx";
+import * as $$$$$3 from "./islands/OutOfStock.tsx";
 import * as $$$$$4 from "./islands/HeaderButton.tsx";
 import * as $$$$$5 from "./islands/AddToCartButton.tsx";
-import * as $$$$$6 from "./islands/HeaderModals.tsx";
-import * as $$$$$7 from "./islands/SliderJS.tsx";
-import * as $$$$$8 from "./islands/ProductImageZoom.tsx";
-import * as $$$$$9 from "./islands/OutOfStock.tsx";
-import * as $$$$$10 from "./islands/SearchControls.tsx";
-import * as $$$$$$$$0 from "./sections/Footer/Footer.tsx";
-import * as $$$$$$$$1 from "./sections/DesignSystem/DesignSystem.tsx";
-import * as $$$$$$$$2 from "./sections/Category/CategoryBanner.tsx";
-import * as $$$$$$$$3 from "./sections/Category/CategoryList.tsx";
-import * as $$$$$$$$4 from "./sections/Images/ShoppableBanner.tsx";
-import * as $$$$$$$$5 from "./sections/Images/BannerGrid.tsx";
-import * as $$$$$$$$6 from "./sections/Images/ImageGallery.tsx";
-import * as $$$$$$$$7 from "./sections/Images/Carousel.tsx";
-import * as $$$$$$$$8 from "./sections/Content/Testimonials.tsx";
-import * as $$$$$$$$9 from "./sections/Content/Logos.tsx";
-import * as $$$$$$$$10 from "./sections/Content/Faq.tsx";
-import * as $$$$$$$$11 from "./sections/Content/Benefits.tsx";
-import * as $$$$$$$$12 from "./sections/Product/Wishlist.tsx";
-import * as $$$$$$$$13 from "./sections/Product/SearchResult.tsx";
-import * as $$$$$$$$14 from "./sections/Product/ProductShelf.tsx";
-import * as $$$$$$$$15 from "./sections/Product/ProductDetails.tsx";
-import * as $$$$$$$$16 from "./sections/Miscellaneous/CampaignTimer.tsx";
-import * as $$$$$$$$17 from "./sections/Miscellaneous/CookieConsent.tsx";
-import * as $$$$$$$$18 from "./sections/Social/WhatsApp.tsx";
-import * as $$$$$$$$19 from "./sections/Social/InstagramPosts.tsx";
-import * as $$$$$$$$20 from "./sections/Links/LinkTree.tsx";
-import * as $$$$$$$$21 from "./sections/Links/Shortcuts.tsx";
-import * as $$$$$$$$22 from "./sections/Newsletter/Newsletter.tsx";
-import * as $$$$$$$$23 from "./sections/Header/Header.tsx";
+import * as $$$$$6 from "./islands/HeaderSearchbar.tsx";
+import * as $$$$$7 from "./islands/WishlistButton.tsx";
+import * as $$$$$8 from "./islands/SliderJS.tsx";
+import * as $$$$$9 from "./islands/ShippingSimulation.tsx";
+import * as $$$$$10 from "./islands/Newsletter.tsx";
+import * as $$$$$$$$0 from "./sections/Category/CategoryList.tsx";
+import * as $$$$$$$$1 from "./sections/Category/CategoryBanner.tsx";
+import * as $$$$$$$$2 from "./sections/Product/Wishlist.tsx";
+import * as $$$$$$$$3 from "./sections/Product/ProductShelf.tsx";
+import * as $$$$$$$$4 from "./sections/Product/ProductDetails.tsx";
+import * as $$$$$$$$5 from "./sections/Product/SearchResult.tsx";
+import * as $$$$$$$$6 from "./sections/Content/Logos.tsx";
+import * as $$$$$$$$7 from "./sections/Content/Faq.tsx";
+import * as $$$$$$$$8 from "./sections/Content/Benefits.tsx";
+import * as $$$$$$$$9 from "./sections/Content/Testimonials.tsx";
+import * as $$$$$$$$10 from "./sections/Images/ShoppableBanner.tsx";
+import * as $$$$$$$$11 from "./sections/Images/BannerGrid.tsx";
+import * as $$$$$$$$12 from "./sections/Images/ImageGallery.tsx";
+import * as $$$$$$$$13 from "./sections/Images/Carousel.tsx";
+import * as $$$$$$$$14 from "./sections/Links/LinkTree.tsx";
+import * as $$$$$$$$15 from "./sections/Links/Shortcuts.tsx";
+import * as $$$$$$$$16 from "./sections/Newsletter/Newsletter.tsx";
+import * as $$$$$$$$17 from "./sections/Header/Header.tsx";
+import * as $$$$$$$$18 from "./sections/DesignSystem/DesignSystem.tsx";
+import * as $$$$$$$$19 from "./sections/Footer/Footer.tsx";
+import * as $$$$$$$$20 from "./sections/Social/WhatsApp.tsx";
+import * as $$$$$$$$21 from "./sections/Social/InstagramPosts.tsx";
+import * as $$$$$$$$22 from "./sections/Miscellaneous/CampaignTimer.tsx";
+import * as $$$$$$$$23 from "./sections/Miscellaneous/CookieConsent.tsx";
 import * as $live_middleware from "$live/routes/_middleware.ts";
 import * as $live_workbench from "$live/routes/live/workbench.ts";
 import * as $live_invoke from "$live/routes/live/invoke/index.ts";
@@ -178,15 +178,15 @@ const manifest = {
   "islands": {
     "./islands/AddToCartButton.tsx": $$$$$5,
     "./islands/HeaderButton.tsx": $$$$$4,
-    "./islands/HeaderModals.tsx": $$$$$6,
-    "./islands/HeaderSearchbar.tsx": $$$$$3,
-    "./islands/Newsletter.tsx": $$$$$0,
-    "./islands/OutOfStock.tsx": $$$$$9,
-    "./islands/ProductImageZoom.tsx": $$$$$8,
-    "./islands/SearchControls.tsx": $$$$$10,
-    "./islands/ShippingSimulation.tsx": $$$$$2,
-    "./islands/SliderJS.tsx": $$$$$7,
-    "./islands/WishlistButton.tsx": $$$$$1,
+    "./islands/HeaderModals.tsx": $$$$$1,
+    "./islands/HeaderSearchbar.tsx": $$$$$6,
+    "./islands/Newsletter.tsx": $$$$$10,
+    "./islands/OutOfStock.tsx": $$$$$3,
+    "./islands/ProductImageZoom.tsx": $$$$$2,
+    "./islands/SearchControls.tsx": $$$$$0,
+    "./islands/ShippingSimulation.tsx": $$$$$9,
+    "./islands/SliderJS.tsx": $$$$$8,
+    "./islands/WishlistButton.tsx": $$$$$7,
   },
   "sections": {
     "$live/sections/Conditional_Beta.tsx": i2$$$$$0,
@@ -194,30 +194,33 @@ const manifest = {
     "$live/sections/PageInclude.tsx": i2$$$$$2,
     "$live/sections/Slot.tsx": i2$$$$$3,
     "$live/sections/UseSlot.tsx": i2$$$$$4,
-    "deco-sites/my-site-amon/sections/Category/CategoryBanner.tsx": $$$$$$$$2,
-    "deco-sites/my-site-amon/sections/Category/CategoryList.tsx": $$$$$$$$3,
-    "deco-sites/my-site-amon/sections/Content/Benefits.tsx": $$$$$$$$11,
-    "deco-sites/my-site-amon/sections/Content/Faq.tsx": $$$$$$$$10,
-    "deco-sites/my-site-amon/sections/Content/Logos.tsx": $$$$$$$$9,
-    "deco-sites/my-site-amon/sections/Content/Testimonials.tsx": $$$$$$$$8,
-    "deco-sites/my-site-amon/sections/DesignSystem/DesignSystem.tsx": $$$$$$$$1,
-    "deco-sites/my-site-amon/sections/Footer/Footer.tsx": $$$$$$$$0,
-    "deco-sites/my-site-amon/sections/Header/Header.tsx": $$$$$$$$23,
-    "deco-sites/my-site-amon/sections/Images/BannerGrid.tsx": $$$$$$$$5,
-    "deco-sites/my-site-amon/sections/Images/Carousel.tsx": $$$$$$$$7,
-    "deco-sites/my-site-amon/sections/Images/ImageGallery.tsx": $$$$$$$$6,
-    "deco-sites/my-site-amon/sections/Images/ShoppableBanner.tsx": $$$$$$$$4,
-    "deco-sites/my-site-amon/sections/Links/LinkTree.tsx": $$$$$$$$20,
-    "deco-sites/my-site-amon/sections/Links/Shortcuts.tsx": $$$$$$$$21,
-    "deco-sites/my-site-amon/sections/Miscellaneous/CampaignTimer.tsx": $$$$$$$$16,
-    "deco-sites/my-site-amon/sections/Miscellaneous/CookieConsent.tsx": $$$$$$$$17,
-    "deco-sites/my-site-amon/sections/Newsletter/Newsletter.tsx": $$$$$$$$22,
-    "deco-sites/my-site-amon/sections/Product/ProductDetails.tsx": $$$$$$$$15,
-    "deco-sites/my-site-amon/sections/Product/ProductShelf.tsx": $$$$$$$$14,
-    "deco-sites/my-site-amon/sections/Product/SearchResult.tsx": $$$$$$$$13,
-    "deco-sites/my-site-amon/sections/Product/Wishlist.tsx": $$$$$$$$12,
-    "deco-sites/my-site-amon/sections/Social/InstagramPosts.tsx": $$$$$$$$19,
-    "deco-sites/my-site-amon/sections/Social/WhatsApp.tsx": $$$$$$$$18,
+    "deco-sites/my-site-amon/sections/Category/CategoryBanner.tsx": $$$$$$$$1,
+    "deco-sites/my-site-amon/sections/Category/CategoryList.tsx": $$$$$$$$0,
+    "deco-sites/my-site-amon/sections/Content/Benefits.tsx": $$$$$$$$8,
+    "deco-sites/my-site-amon/sections/Content/Faq.tsx": $$$$$$$$7,
+    "deco-sites/my-site-amon/sections/Content/Logos.tsx": $$$$$$$$6,
+    "deco-sites/my-site-amon/sections/Content/Testimonials.tsx": $$$$$$$$9,
+    "deco-sites/my-site-amon/sections/DesignSystem/DesignSystem.tsx":
+      $$$$$$$$18,
+    "deco-sites/my-site-amon/sections/Footer/Footer.tsx": $$$$$$$$19,
+    "deco-sites/my-site-amon/sections/Header/Header.tsx": $$$$$$$$17,
+    "deco-sites/my-site-amon/sections/Images/BannerGrid.tsx": $$$$$$$$11,
+    "deco-sites/my-site-amon/sections/Images/Carousel.tsx": $$$$$$$$13,
+    "deco-sites/my-site-amon/sections/Images/ImageGallery.tsx": $$$$$$$$12,
+    "deco-sites/my-site-amon/sections/Images/ShoppableBanner.tsx": $$$$$$$$10,
+    "deco-sites/my-site-amon/sections/Links/LinkTree.tsx": $$$$$$$$14,
+    "deco-sites/my-site-amon/sections/Links/Shortcuts.tsx": $$$$$$$$15,
+    "deco-sites/my-site-amon/sections/Miscellaneous/CampaignTimer.tsx":
+      $$$$$$$$22,
+    "deco-sites/my-site-amon/sections/Miscellaneous/CookieConsent.tsx":
+      $$$$$$$$23,
+    "deco-sites/my-site-amon/sections/Newsletter/Newsletter.tsx": $$$$$$$$16,
+    "deco-sites/my-site-amon/sections/Product/ProductDetails.tsx": $$$$$$$$4,
+    "deco-sites/my-site-amon/sections/Product/ProductShelf.tsx": $$$$$$$$3,
+    "deco-sites/my-site-amon/sections/Product/SearchResult.tsx": $$$$$$$$5,
+    "deco-sites/my-site-amon/sections/Product/Wishlist.tsx": $$$$$$$$2,
+    "deco-sites/my-site-amon/sections/Social/InstagramPosts.tsx": $$$$$$$$21,
+    "deco-sites/my-site-amon/sections/Social/WhatsApp.tsx": $$$$$$$$20,
     "deco-sites/std/sections/Analytics.tsx": i2$$$$$5,
     "deco-sites/std/sections/configButterCMS.global.tsx": i2$$$$$6,
     "deco-sites/std/sections/configOCC.global.tsx": i2$$$$$7,
